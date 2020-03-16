@@ -1,5 +1,8 @@
 /// @description setup
 
+//create clock
+instance_create_layer(50,50,"instances",o_clock);
+
 //main box
 width = room_width;
 height = room_height/2;

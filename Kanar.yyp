@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "5d7cb231-243d-4e30-8c18-0f3399ef485b",
+            "Value": {
+                "id": "2edb5ceb-40dd-40bc-b1ce-4a532f3f6324",
+                "resourcePath": "objects\\o_clock\\o_clock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "628b7e70-dd9b-4bac-88a3-952bab175bed",
             "Value": {
                 "id": "d0282276-ff9d-4afa-bcae-85f10379eac4",

@@ -4,6 +4,10 @@ enum state{
 
     //ticket
     free,
-    picked
+    picked,
+
+	//clock
+	pause,
+	running
 
 }
