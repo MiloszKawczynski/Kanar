@@ -21,4 +21,3 @@ gameplay_box_y = portrait_margin;
 
 gameplay_box_endx = width - portrait_margin;
 gameplay_box_endy = height - portrait_margin;
-

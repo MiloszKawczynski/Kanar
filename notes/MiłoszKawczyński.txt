@@ -1,0 +1,5 @@
+tab_station:
+1 - pozycja x
+2 - pozycja y
+3 - ilosc polaczen
+4-12 - polaczenie

@@ -10,3 +10,4 @@ direction = 0;
 
 state = state.free;
 
+mouse_border=o_ingame_gui.height;

@@ -50,7 +50,11 @@ if(pickable == true){
 
 if(state == state.picked){
 
-    x = mouse_x + pick_offset_x;
-    y = mouse_y + pick_offset_y;
+	if mouse_y<mouse_border
+	{
+	    y = mouse_y + pick_offset_y;
+	}
+	
+	x = mouse_x + pick_offset_x;
 
 }

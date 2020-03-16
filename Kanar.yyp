@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1d9c4df9-5d8c-418e-a72c-c020b9c4f8cf",
+            "Value": {
+                "id": "c238905e-659e-4f52-9126-3fc75fb6ff65",
+                "resourcePath": "rooms\\r_map\\r_map.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1fe8ac8c-58e5-4443-afa7-e0cb761e2072",
             "Value": {
                 "id": "1c767a89-96c7-4b59-8287-ed890b8af9a7",
@@ -138,7 +146,7 @@
             "Key": "68e8192e-005c-4c37-8a69-220b74559c6c",
             "Value": {
                 "id": "3dfa7501-6d8d-4fa7-86f5-88fb93a4c8d8",
-                "resourcePath": "sprites\\s_portrait\\s_portrait.yy",
+                "resourcePath": "sprites\\s_portrait_old\\s_portrait_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -148,6 +156,22 @@
                 "id": "fd4fbbf6-57eb-41ab-b4a8-21cb00b95a60",
                 "resourcePath": "views\\694e63e9-979d-4989-979a-c7e8aa4de3b5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "729533a6-f944-4ce4-ae8a-5549eb3daf23",
+            "Value": {
+                "id": "2d1ef74c-21e1-4992-a652-0e38c2548781",
+                "resourcePath": "objects\\o_generator_map\\o_generator_map.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "77593a09-a725-4838-8e35-2b7ff0a7ab80",
+            "Value": {
+                "id": "51894fb0-f6e7-41df-805d-d449538e49e6",
+                "resourcePath": "fonts\\f_clock\\f_clock.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -247,6 +271,14 @@
             }
         },
         {
+            "Key": "e3c51212-f51f-49da-b335-e43329494241",
+            "Value": {
+                "id": "2b325935-a0e7-4abd-b686-bba849c71d59",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c5020ae5-1430-4983-ae2f-0fd23f16729f",
@@ -268,6 +300,14 @@
                 "id": "8cc12c4b-5d0e-4aa5-8e37-d2ef862676c0",
                 "resourcePath": "views\\f81f24ab-c305-4f8a-99a0-35be5e56115a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe1c51a5-352e-4edc-a421-2a95bc116225",
+            "Value": {
+                "id": "d70d165b-9ac2-4088-b4a8-f8808566b4ae",
+                "resourcePath": "notes\\MiłoszKawczyński.yy",
+                "resourceType": "GMNotes"
             }
         }
     ],
