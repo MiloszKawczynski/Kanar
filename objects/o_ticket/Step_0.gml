@@ -31,7 +31,18 @@ if(pickable == true){
     
     if(state == state.picked && mouse_check_button_released(mb_left)){
     
-        state = state.free;
+		//giving the ticket back
+		client = instance_place(x,y,o_portrait);
+		if(client != noone){
+		
+			instance_destroy(client);
+			instance_destroy();
+		
+		}else{
+		
+			state = state.free;
+		
+		}
     
     }
 
@@ -43,4 +54,3 @@ if(state == state.picked){
     y = mouse_y + pick_offset_y;
 
 }
-

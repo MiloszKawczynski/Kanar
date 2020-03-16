@@ -1,6 +1,6 @@
 /// @description behaviour
 
-if(portrait == noone && keyboard_check_pressed(ord("S"))){
+if( !instance_exists(portrait) && keyboard_check_pressed(ord("S")) ){
 
     portrait = instance_create_layer(
     
