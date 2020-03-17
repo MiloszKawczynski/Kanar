@@ -50,11 +50,47 @@ if(pickable == true){
 
 if(state == state.picked){
 
-	if mouse_y<mouse_border
-	{
-	    y = mouse_y + pick_offset_y;
+	//checking borders
+	
+	//bottom
+	if(mouse_y + pick_offset_y + sprite_height/2 < mouse_border_y){
+		
+		//up
+		if(mouse_y + pick_offset_y - sprite_height/2 > 0){
+		
+			y = mouse_y + pick_offset_y;
+		
+		}else{
+			//up else
+			y = sprite_height/2;
+	
+		}
+		
+	}else{
+		//bottom else
+		y = mouse_border_y - sprite_height/2;
+	
 	}
 	
-	x = mouse_x + pick_offset_x;
+	//right
+	if(mouse_x + pick_offset_x + sprite_width/2 < mouse_border_x){
+		
+		//left
+		if(mouse_x + pick_offset_x - sprite_width/2 > 0){
+		
+			x = mouse_x + pick_offset_x;
+		
+		}else{
+			//left else
+			x = sprite_width/2;
+	
+		}
+	
+	
+	}else{
+		//right else
+		x = mouse_border_x - sprite_width/2;
+	
+	}
 
 }
