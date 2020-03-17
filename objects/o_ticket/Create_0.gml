@@ -12,3 +12,5 @@ state = state.free;
 
 mouse_border_y = o_ingame_gui.height;
 mouse_border_x = room_width;
+
+margin = 8;

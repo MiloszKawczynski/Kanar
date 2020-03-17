@@ -53,43 +53,43 @@ if(state == state.picked){
 	//checking borders
 	
 	//bottom
-	if(mouse_y + pick_offset_y + sprite_height/2 < mouse_border_y){
+	if(mouse_y + pick_offset_y + sprite_height/2 + margin < mouse_border_y){
 		
 		//up
-		if(mouse_y + pick_offset_y - sprite_height/2 > 0){
+		if(mouse_y + pick_offset_y - sprite_height/2 - margin > 0){
 		
 			y = mouse_y + pick_offset_y;
 		
 		}else{
 			//up else
-			y = sprite_height/2;
+			y = sprite_height/2 + margin;
 	
 		}
 		
 	}else{
 		//bottom else
-		y = mouse_border_y - sprite_height/2;
+		y = mouse_border_y - sprite_height/2 - margin;
 	
 	}
 	
 	//right
-	if(mouse_x + pick_offset_x + sprite_width/2 < mouse_border_x){
+	if(mouse_x + pick_offset_x + sprite_width/2 + margin < mouse_border_x){
 		
 		//left
-		if(mouse_x + pick_offset_x - sprite_width/2 > 0){
+		if(mouse_x + pick_offset_x - sprite_width/2 - margin > 0){
 		
 			x = mouse_x + pick_offset_x;
 		
 		}else{
 			//left else
-			x = sprite_width/2;
+			x = sprite_width/2 + margin;
 	
 		}
 	
 	
 	}else{
 		//right else
-		x = mouse_border_x - sprite_width/2;
+		x = mouse_border_x - sprite_width/2 - margin;
 	
 	}
 
