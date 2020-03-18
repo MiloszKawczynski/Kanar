@@ -31,3 +31,13 @@ menu_box_y = margin;
 
 menu_box_endx = width - margin;
 menu_box_endy = height - margin;
+
+//create menu
+instance_create_layer(
+
+	3 * margin + portrait_width + gameplay_box_width,
+	2 * margin,
+	"instances",
+	o_menu
+	
+);
