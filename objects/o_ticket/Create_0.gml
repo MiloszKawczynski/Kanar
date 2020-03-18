@@ -11,6 +11,6 @@ direction = 0;
 state = state.free;
 
 mouse_border_y = o_ingame_gui.height;
-mouse_border_x = room_width;
+mouse_border_x = o_ingame_gui.width - o_ingame_gui.portrait_width - o_ingame_gui.margin;
 
 margin = 8;

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "41f2b9ae-185b-4629-b05a-fedf5bc437cc",
+            "Value": {
+                "id": "d6ed5b5d-bcd5-495c-aef7-5d6d66242c98",
+                "resourcePath": "views\\41f2b9ae-185b-4629-b05a-fedf5bc437cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49372b8f-d67d-4e86-830b-b75767a34ad5",
             "Value": {
                 "id": "c57b7fc3-4857-4e35-a2af-f775449b6e27",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "abc5c4ae-444c-4f90-818a-d006c9fa1472",
+            "Value": {
+                "id": "b289f7c3-4d25-4bdd-8286-5791533d541a",
+                "resourcePath": "views\\abc5c4ae-444c-4f90-818a-d006c9fa1472.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b75a01b0-150c-43c4-8a50-523af68929e3",
             "Value": {
                 "id": "a232a510-a647-4704-b219-c6d617c9d328",
@@ -251,6 +267,14 @@
             "Value": {
                 "id": "b8b058fb-b197-4048-90b8-924b5d369052",
                 "resourcePath": "views\\bf7bd275-33f4-4861-91cd-254353eea723.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3ec7722-ac2a-4de7-8257-12ec4ba50e71",
+            "Value": {
+                "id": "91bb0264-5617-4dcc-86a3-11db0fb13d15",
+                "resourcePath": "views\\c3ec7722-ac2a-4de7-8257-12ec4ba50e71.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -276,6 +300,14 @@
                 "id": "3c225802-6a46-4cd7-98d0-ac623db51a11",
                 "resourcePath": "views\\dcbf5d7e-359d-4a87-b1a4-48efba097443.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e92d38f6-2f8d-4aa2-8f4e-047bf8b06cc0",
+            "Value": {
+                "id": "58c64c70-5d1e-4b33-828a-4811aa96914a",
+                "resourcePath": "sprites\\s_clock_frame\\s_clock_frame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

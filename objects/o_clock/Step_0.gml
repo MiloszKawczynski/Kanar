@@ -41,4 +41,4 @@ if(floor(time_h)<10){
 
 }
 
-time = stime_h + " : " + stime_m;
+time = stime_h + ":" + stime_m;
