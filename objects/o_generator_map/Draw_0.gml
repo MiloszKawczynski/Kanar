@@ -1,21 +1,20 @@
-draw_set_color(c_black);
+scr_draw_rectangle_width(0,0,room_width,room_height,20);
 
-for(var i=1;i<=station_number;i++)
+draw_set_color(c_red)
+draw_triangle(actual_statoion.x-20,actual_statoion.y-40,actual_statoion.x+20,actual_statoion.y-40,actual_statoion.x,actual_statoion.y-20,0)
+
+for(var i=1;i<=10;i++)
 {
-	//rysowanie pozycji stacji
-	
-	draw_circle(tab_station[i,1],tab_station[i,2],6,0)
-	
-	//rysowanie polaczen
-	
-	for(var k=1;k<=10;k++)
+	if actual_statoion.connection[i]!=actual_statoion.id
 	{
-		for(var kk=1;kk<=10;kk++)
+		if actual_statoion.connection[i]==choose_station
 		{
-			if tab_connection[k,kk]==1
-			{
-				draw_line_width(tab_station[kk,1],tab_station[kk,2],tab_station[k,1],tab_station[k,2],2);
-			}
+			draw_set_color(c_lime);
 		}
-	}	
+		else
+		{
+			draw_set_color(c_blue);
+		}
+		draw_triangle(actual_statoion.connection[i].x-20,actual_statoion.connection[i].y-40,actual_statoion.connection[i].x+20,actual_statoion.connection[i].y-40,actual_statoion.connection[i].x,actual_statoion.connection[i].y-20,0)
+	}
 }

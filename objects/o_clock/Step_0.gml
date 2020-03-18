@@ -2,16 +2,16 @@
 
 if(state == state.running){
 
-	time_m += 1/60;
+	global.time_m += 1/60;
 	
-	if(time_m >= 60){
+	if(global.time_m >= 60){
 	
-		time_h ++;
-		time_m = 0;
+		global.time_h ++;
+		global.time_m = 0;
 		
-		if(time_h >= 24){
+		if(global.time_h >= 24){
 		
-			time_h = 0;
+			global.time_h = 0;
 		
 		}
 	
@@ -21,24 +21,24 @@ if(state == state.running){
 
 //format time
 
-if(floor(time_m)<10){
+if(floor(global.time_m)<10){
 
-	stime_m = "0" + string(floor(time_m));
-
-}else{
-
-	stime_m = string(floor(time_m));
-
-}
-
-if(floor(time_h)<10){
-
-	stime_h = "0" + string(floor(time_h));
+	global.stime_m = "0" + string(floor(global.time_m));
 
 }else{
 
-	stime_h = string(floor(time_h));
+	global.stime_m = string(floor(global.time_m));
 
 }
 
-time = stime_h + ":" + stime_m;
+if(floor(global.time_h)<10){
+
+	global.stime_h = "0" + string(floor(global.time_h));
+
+}else{
+
+	global.stime_h = string(floor(global.time_h));
+
+}
+
+global.time = global.stime_h + ":" + global.stime_m;
