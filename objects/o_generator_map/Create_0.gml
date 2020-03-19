@@ -10,6 +10,8 @@ map_margin=300
 
 station_distance=100;
 
+choose_station=noone;
+
 station_number=irandom_range(minimum_station_number,maximum_station_number);
 
 for(var i=1;i<=station_number;i++)
