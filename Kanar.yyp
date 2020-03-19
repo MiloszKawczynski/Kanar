@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "2dd6b68e-081f-41a9-9771-8eda0aeed5bd",
+            "Value": {
+                "id": "04c8e9da-e018-41a1-b8e9-3b267a099d00",
+                "resourcePath": "sprites\\s_portrait\\s_portrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e77e262-7e6c-407b-b621-01566a6b85ed",
             "Value": {
                 "id": "6d0aa8b9-2896-420a-923a-283066cfb03c",
@@ -140,14 +148,6 @@
                 "id": "5a2dcc29-bd6d-4841-830e-9a169baa9f70",
                 "resourcePath": "objects\\o_portrait\\o_portrait.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "39f0e1dc-c646-47f9-97ce-fd88ba6673e0",
-            "Value": {
-                "id": "db708497-cec6-42e0-9df9-93e593794ce8",
-                "resourcePath": "sprites\\s_portrait\\s_portrait.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

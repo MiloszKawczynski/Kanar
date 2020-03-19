@@ -1,7 +1,11 @@
+//Załadowanie do tablicy połączeń pustych wartości
+
 for(var i=1;i<=10;i++)
 {
 	connection[i]=self;
 }
+
+//Rostawienie stacji na odległość station_distance
 
 if instance_number(o_station)>1
 {
@@ -24,5 +28,7 @@ if instance_number(o_station)>1
 		
 	}
 }
+
+//alarm za 5 ticków
 
 alarm[0]=5;

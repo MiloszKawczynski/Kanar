@@ -1,7 +1,13 @@
+//Rysowanie ramki
+
 scr_draw_rectangle_width(0,0,room_width,room_height,20);
+
+//Rysowanie aktualnej stacjii
 
 draw_set_color(c_red)
 draw_triangle(actual_statoion.x-20,actual_statoion.y-40,actual_statoion.x+20,actual_statoion.y-40,actual_statoion.x,actual_statoion.y-20,0)
+
+//Rysowanie stacjii z połączeniem (niebieski) oraz wybranej (limonkowy)
 
 for(var i=1;i<=10;i++)
 {
