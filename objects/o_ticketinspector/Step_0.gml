@@ -27,7 +27,6 @@ if(keyboard_check_pressed(ord("E")))
 {
 	if(place_meeting(x,y,o_passenger))
 	{
-		passenger_inspection=1
-		gravity=1 // works as a temporary confirmation of successfull interaction 
+		passenger_inspection=1;
 	}
 }
