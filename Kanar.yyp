@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "44350537-6340-4e67-8b7f-ada63b392611",
+            "Value": {
+                "id": "47693004-6df2-4a3f-9f95-1c566ea7a256",
+                "resourcePath": "scripts\\scr_ticket_check\\scr_ticket_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "49372b8f-d67d-4e86-830b-b75767a34ad5",
             "Value": {
                 "id": "c57b7fc3-4857-4e35-a2af-f775449b6e27",
@@ -537,7 +545,8 @@
     ],
     "script_order": [
         "2e77e262-7e6c-407b-b621-01566a6b85ed",
-        "7f9f99e0-c2ef-463b-b687-67dab73e915e"
+        "7f9f99e0-c2ef-463b-b687-67dab73e915e",
+        "44350537-6340-4e67-8b7f-ada63b392611"
     ],
     "tutorial": ""
 }

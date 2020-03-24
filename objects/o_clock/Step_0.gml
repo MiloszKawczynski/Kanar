@@ -2,7 +2,7 @@
 
 if(state == state.running){
 
-	global.time_m += 1/60;
+	global.time_m += 1/240;
 	
 	if(global.time_m >= 60){
 	

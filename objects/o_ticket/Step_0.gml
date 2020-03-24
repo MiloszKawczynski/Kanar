@@ -35,8 +35,7 @@ if(pickable == true){
 		client = instance_place(x,y,o_portrait);
 		if(client != noone){
 		
-			instance_destroy(client);
-			instance_destroy();
+			scr_ticket_check();
 		
 		}else{
 		
