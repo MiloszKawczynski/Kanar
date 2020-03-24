@@ -25,7 +25,7 @@ hspeed=hspeed_value*hdirection
 
 if(keyboard_check_pressed(ord("E"))) 
 {
-	if(place_meeting(x,y,o_passenger))
+	if(place_meeting(x,y,o_passenger) && !instance_exists(o_ingame_gui.portrait))
 	{
 		passenger_inspection=1;
 	}
