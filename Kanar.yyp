@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1a1f390f-ce1d-4778-9268-dd1fad159fe7",
+            "Value": {
+                "id": "ec44d39d-f3d2-4f0f-a684-c0ae368bda93",
+                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b73245d-c271-4e6e-8b24-28baf0297988",
             "Value": {
                 "id": "16cfa461-115f-426e-8c62-d698046a4169",
@@ -76,6 +84,14 @@
                 "id": "32e64c06-4e06-4209-96e2-33880d049536",
                 "resourcePath": "sprites\\s_page3\\s_page3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1c1df72c-8839-418f-b4b1-c0d8623ae22a",
+            "Value": {
+                "id": "89a1a4fc-f075-429c-8d46-16aa0e146c0a",
+                "resourcePath": "objects\\o_passenger\\o_passenger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -107,6 +123,14 @@
             "Value": {
                 "id": "e5168a6c-5030-43e3-81d8-6e5c8a8f4c82",
                 "resourcePath": "views\\24216025-46ba-403d-b449-821a559af950.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "26ccfb13-a438-405a-8aa1-a18cb0b4d168",
+            "Value": {
+                "id": "14c3ba61-7397-4ba0-932a-4d0b0c86659e",
+                "resourcePath": "views\\26ccfb13-a438-405a-8aa1-a18cb0b4d168.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -183,11 +207,27 @@
             }
         },
         {
+            "Key": "43852ca8-3c68-405e-b683-fb2637416520",
+            "Value": {
+                "id": "e0e16650-3569-4968-a2c3-a2543c80188b",
+                "resourcePath": "sprites\\s_ticketinspector\\s_ticketinspector.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43aa69ca-41ef-40c9-9f00-5f3fa021c2e3",
             "Value": {
                 "id": "47cc3940-02f2-40a2-9f9a-dd15f76267e5",
                 "resourcePath": "views\\43aa69ca-41ef-40c9-9f00-5f3fa021c2e3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "44350537-6340-4e67-8b7f-ada63b392611",
+            "Value": {
+                "id": "47693004-6df2-4a3f-9f95-1c566ea7a256",
+                "resourcePath": "scripts\\scr_ticket_check\\scr_ticket_check.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -259,6 +299,14 @@
             "Value": {
                 "id": "52093d9e-69b7-49a0-9b2c-6dffef60f202",
                 "resourcePath": "views\\6995057b-ff2f-47bb-b341-84b22fa35973.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f5745d6-7224-4351-bcf0-fee5436a38f2",
+            "Value": {
+                "id": "71b74a0b-c3b9-4548-8f47-945ccbfb20b5",
+                "resourcePath": "views\\6f5745d6-7224-4351-bcf0-fee5436a38f2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -447,6 +495,14 @@
             }
         },
         {
+            "Key": "e9880ade-252c-431d-84a4-11f2b9b3ba7e",
+            "Value": {
+                "id": "be2e0105-5f64-4657-b24d-d05cda5253c3",
+                "resourcePath": "sprites\\s_passenger\\s_passenger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c5020ae5-1430-4983-ae2f-0fd23f16729f",
@@ -459,6 +515,14 @@
             "Value": {
                 "id": "7a6d7af4-f5dd-4970-a43c-f2099f2a0ea7",
                 "resourcePath": "objects\\o_ingame_gui\\o_ingame_gui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f75ea67b-e885-470f-9304-3c3bede81961",
+            "Value": {
+                "id": "39eee7f6-0940-430a-b63d-05ecd61f9705",
+                "resourcePath": "objects\\o_ticketinspector\\o_ticketinspector.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -481,7 +545,8 @@
     ],
     "script_order": [
         "2e77e262-7e6c-407b-b621-01566a6b85ed",
-        "7f9f99e0-c2ef-463b-b687-67dab73e915e"
+        "7f9f99e0-c2ef-463b-b687-67dab73e915e",
+        "44350537-6340-4e67-8b7f-ada63b392611"
     ],
     "tutorial": ""
 }

@@ -1,6 +1,6 @@
 /// @description behaviour
 
-if( !instance_exists(portrait) && keyboard_check_pressed(ord("S")) ){
+if( !instance_exists(portrait) && o_ticketinspector.passenger_inspection==1 ){
 
     portrait = instance_create_layer(
     
@@ -10,6 +10,8 @@ if( !instance_exists(portrait) && keyboard_check_pressed(ord("S")) ){
         o_portrait
         
     );
+	
+	o_ticketinspector.passenger_inspection=0;
 
 }
 
