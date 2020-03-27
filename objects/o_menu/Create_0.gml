@@ -2,6 +2,7 @@
 
 depth = -20;
 
+//spawning bookmarks
 for(var i = 0; i < 4; i++){
 
 	bookmark[i] = instance_create_layer(

@@ -23,9 +23,6 @@ price = 0;
 type = "";
 
 //when was the ticket validated
-year = 0;
-month = 0;
-day = 0;
 time = 0;
 
 //ticked security code

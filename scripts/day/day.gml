@@ -1,0 +1,1 @@
+return floor(((argument0 % 518400) % 43200)/1440);

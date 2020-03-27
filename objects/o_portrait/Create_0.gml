@@ -41,19 +41,16 @@ if(ticket == noone){
 	
 	//choosing code 
 	//(provisional)
-	ticket.code = choose("Pfagfr","R345reg","Erdg34t");
+	ticket.code = choose("Pfagfr","R345reg","Erdg34t","Erdg34t","Erdg34t","Erdg34t","Erdg34t");
 	
 	//choosing symbol on ticket
 	//(provisional)
-	ticket.symbol = choose(0,1,2,3,4,5);
+	ticket.symbol = choose(0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5);
 	
-	//choosing validation date and time !!!!MUST CHANGE TIME FORMAT!!!!
+	//choosing validation date and time
 	//(provisional)
-	ticket.year = choose(global.year, global.year-1, global.year+1);
-	ticket.month = choose(global.month, global.month-irandom_range(1,3), global.month+irandom_range(1,3));
-	ticket.day = choose(global.day, global.day-irandom_range(1,7), global.day+irandom_range(1,7));
 	
-	ticket.time = choose(global.time+irandom_range(-20,20),global.time+irandom_range(-60,40),global.time+irandom_range(-30,0));
+	ticket.time = choose(global.time+irandom_range(0,20),global.time+irandom_range(-1200,-ticket.value),global.time+irandom_range(-30,0));
 
 }
 

@@ -1,4 +1,4 @@
-/// @description ticket movement
+ /// @description ticket movement
 
 //slide at the beggining
 if(slide == true)
@@ -35,7 +35,13 @@ if(pickable == true){
 		client = instance_place(x,y,o_portrait);
 		if(client != noone){
 		
-			scr_ticket_check();
+			if(scr_ticket_check())
+				global.points++;
+			else
+				global.points--;
+			
+			instance_destroy(client);
+			instance_destroy();
 		
 		}else{
 		

@@ -1,5 +1,8 @@
 /// @description setup
 
+//point counter
+global.points = 0;
+
 //create clock
 instance_create_layer(room_width/2,30,"instances",o_clock);
 

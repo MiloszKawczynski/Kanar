@@ -29,3 +29,8 @@ draw_rectangle_colour(
     menu_box_endy, //endy
     c_gray,c_gray,c_gray,c_gray,0  //color
 );
+
+//points
+draw_set_font(f_clock);
+draw_set_color(c_black);
+draw_text(o_clock.clock_x-50,o_clock.clock_y+100,"points:"+" "+string(global.points));
