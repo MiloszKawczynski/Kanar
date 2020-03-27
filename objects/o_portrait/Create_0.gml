@@ -1,3 +1,4 @@
+randomise();
 /// @description setup variables
 
 depth = -10;
@@ -40,7 +41,7 @@ if(ticket == noone){
 	
 	//choosing code 
 	//(provisional)
-	ticket.code = choose("Proper","wrong","wronger");
+	ticket.code = choose("Pfagfr","R345reg","Erdg34t");
 	
 	//choosing symbol on ticket
 	//(provisional)
@@ -52,8 +53,7 @@ if(ticket == noone){
 	ticket.month = choose(global.month, global.month-irandom_range(1,3), global.month+irandom_range(1,3));
 	ticket.day = choose(global.day, global.day-irandom_range(1,7), global.day+irandom_range(1,7));
 	
-	ticket.hour = choose(global.time_h,global.time_h-1,global.time_h+1);
-	ticket.minute = choose(global.time_m-irandom_range(1,ticket.value),global.time_m-ticket.value-10,global.time_m+ticket.value);
+	ticket.time = choose(global.time+irandom_range(-20,20),global.time+irandom_range(-60,40),global.time+irandom_range(-30,0));
 
 }
 

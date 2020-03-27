@@ -7,4 +7,4 @@ draw_set_color(c_red)
 
 draw_self();
 
-draw_text(clock_x,clock_y,global.time);
+draw_text(clock_x,clock_y,s_time);

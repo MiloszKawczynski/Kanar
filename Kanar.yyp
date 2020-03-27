@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1c8187c2-4dfc-4aba-bede-5cd0a8ff4d6f",
+            "Value": {
+                "id": "127acf2f-f649-4b50-8fc4-380939579944",
+                "resourcePath": "fonts\\f_price\\f_price.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "1d9c4df9-5d8c-418e-a72c-c020b9c4f8cf",
             "Value": {
                 "id": "c238905e-659e-4f52-9126-3fc75fb6ff65",
@@ -148,6 +156,14 @@
                 "id": "b785ece1-e18f-4597-a083-7c76f58420f4",
                 "resourcePath": "objects\\o_page1\\o_page1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2cb12057-b8a6-4130-83f3-aa040e809b84",
+            "Value": {
+                "id": "0a814762-5705-4d7a-8cfb-08e15bea930c",
+                "resourcePath": "fonts\\f_ticket\\f_ticket.yy",
+                "resourceType": "GMFont"
             }
         },
         {

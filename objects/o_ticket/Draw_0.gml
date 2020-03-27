@@ -1,13 +1,14 @@
-//draw_self();
-//draw_set_color(c_black);
+draw_self();
+draw_set_color(c_black);
 
-//draw_text(x,y,value);
-//draw_text(x,y+50,type);
-//draw_text(x,y+100,price);
-//draw_text(x,y+150,code);
-//draw_text(x,y+200,symbol);
-//draw_text(x,y+250,year);
-//draw_text(x,y+300,month);
-//draw_text(x,y+350,day);
-//draw_text(x,y+400,hour);
-//draw_text(x,y+450,minute);
+draw_set_font(f_price);
+draw_text(x+30,y-20,string(price)+"zl");
+
+draw_set_font(f_ticket);
+draw_text(x,y,"up to "+string(value)+" min, "+string(type));
+
+draw_text_transformed(x-170,y,code,1,1,90);
+
+draw_text(x+70,y+40,symbol);
+
+draw_text_transformed(x+153,y,string(year)+"."+string(month)+"."+string(day)+" "+string(floor(time/60))+":"+string(time%60),1,1,270);

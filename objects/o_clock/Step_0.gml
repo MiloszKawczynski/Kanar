@@ -1,17 +1,26 @@
 /// @description time flow
 
+
 if(state == state.running){
 
-	global.time_m += 1/240;
+	global.time += 1/240;
 	
-	if(global.time_m >= 60){
+	if(global.time >= 1440){
 	
-		global.time_h ++;
-		global.time_m = 0;
+		global.time = 0;
+		global.day ++;
 		
-		if(global.time_h >= 24){
+		if(global.day > 30){
 		
-			global.time_h = 0;
+			global.day = 1;
+			global.month ++;
+			
+			if(global.month > 12){
+		
+				global.month = 1;
+				global.year ++;
+		
+			}
 		
 		}
 	
@@ -19,26 +28,12 @@ if(state == state.running){
 
 }
 
-//format time
-
-if(floor(global.time_m)<10){
-
-	global.stime_m = "0" + string(floor(global.time_m));
-
+if(floor(global.time%60)<10){
+	
+	s_time = string(floor(global.time/60))+":0"+string(floor(global.time%60));
+	
 }else{
-
-	global.stime_m = string(floor(global.time_m));
-
+	
+	s_time = string(floor(global.time/60))+":"+string(floor(global.time%60));
+	
 }
-
-if(floor(global.time_h)<10){
-
-	global.stime_h = "0" + string(floor(global.time_h));
-
-}else{
-
-	global.stime_h = string(floor(global.time_h));
-
-}
-
-global.time = global.stime_h + ":" + global.stime_m;
