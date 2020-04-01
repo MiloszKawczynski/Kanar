@@ -1,0 +1,2 @@
+spacja - spawn pasażera
+enter - na mapie przechodzi do testu

@@ -41,6 +41,7 @@ if(pickable == true){
 				global.points--;
 			
 			instance_destroy(client);
+			instance_destroy(o_ingame_gui.passengerid);
 			instance_destroy();
 		
 		}else{

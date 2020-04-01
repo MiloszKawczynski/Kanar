@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_passenger",
     "eventList": [
-        
+        {
+            "id": "39d99292-36be-4137-8513-ed9c65555cf0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1c1df72c-8839-418f-b4b1-c0d8623ae22a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

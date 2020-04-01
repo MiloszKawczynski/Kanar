@@ -8,6 +8,11 @@ enum state{
 
 	//clock
 	pause,
-	running
+	running,
+	
+	//door
+	opening,
+	closing,
+	closed
 
 }

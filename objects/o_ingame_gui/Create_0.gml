@@ -1,14 +1,18 @@
 /// @description setup
 
+//TEMPORARY
+passengerid = noone;
+//TEMPORARY
+
 //point counter
 global.points = 0;
 
 //create clock
-instance_create_layer(room_width/2,30,"instances",o_clock);
+instance_create_layer(camera_get_view_width(0)/2,30,"instances",o_clock);
 
 //main box
-width = room_width;
-height = room_height/2;
+width = camera_get_view_width(0);
+height = camera_get_view_height(0)/2;
 
 //universal vars
 margin = 10;
@@ -44,3 +48,5 @@ instance_create_layer(
 	o_menu
 	
 );
+//create bus obj
+instance_create_layer(0,0,"instances",o_bus);
