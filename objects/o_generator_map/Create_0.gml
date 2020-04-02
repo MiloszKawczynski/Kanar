@@ -17,6 +17,11 @@ maximum_station_number=5;
 
 map_margin=300
 
+//czas podróży
+
+travel_time=0;
+time_scale=10;
+
 //ustawienie dystansu stacjii od siebie
 
 station_distance=100;
