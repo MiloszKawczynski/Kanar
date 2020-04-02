@@ -11,6 +11,7 @@ if(mouse_check_button_pressed(mb_left) && instance_exists(o_portrait)){
 			
 		instance_destroy(o_ticket);
 		instance_destroy(o_portrait);
+		instance_destroy(o_ingame_gui.passengerid);
 
 	}
     
