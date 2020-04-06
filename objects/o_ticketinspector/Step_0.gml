@@ -32,3 +32,16 @@ if(keyboard_check_pressed(ord("E")))
 		o_ingame_gui.passengerid = passenger;
 	}
 }
+
+
+
+
+if(x - camera_get_view_x(view_camera[1]) < 960 - dead_zone_camera)
+{camera_set_view_pos(view_camera[1], 960 - dead_zone_camera - x - camera_get_view_x(view_camera[1]) , 540)}
+else if(x - camera_get_view_x(view_camera[1]) > 960 + dead_zone_camera)
+{camera_set_view_pos(view_camera[1], 0, 540)}
+
+
+
+
+
