@@ -45,5 +45,9 @@ if(ticket == noone && passenger != noone){
 	ticket.time = passenger.ticket_time;
 	
 	ticket.owner = passenger;
+	
+	image_index = passenger.portrait;
+	
+	setup = true;
 
 }
