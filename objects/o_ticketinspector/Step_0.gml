@@ -45,8 +45,10 @@ if(keyboard_check_pressed(ord("E")))
 	passenger = instance_place(x,y,o_passenger);
 	if(passenger != noone && !instance_exists(o_ingame_gui.portrait))
 	{
-		passenger_inspection=1;
-		o_ingame_gui.passengerid = passenger;
+		
+		o_ingame_gui.portrait = instance_create_layer(o_ingame_gui.margin, o_ingame_gui.margin, "instances", o_portrait);
+		o_ingame_gui.portrait.passenger = passenger;
+		
 	}
 }
 

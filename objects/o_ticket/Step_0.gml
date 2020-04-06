@@ -32,16 +32,16 @@ if(pickable == true){
     if(state == state.picked && mouse_check_button_released(mb_left)){
     
 		//giving the ticket back
-		client = instance_place(x,y,o_portrait);
-		if(client != noone){
+		portrait = instance_place(x,y,o_portrait);
+		if(portrait != noone){
 		
 			if(scr_ticket_check())
 				global.points++;
 			else
 				global.points--;
 			
-			instance_destroy(client);
-			instance_destroy(o_ingame_gui.passengerid);
+			instance_destroy(portrait);
+			instance_destroy(owner);
 			instance_destroy();
 		
 		}else{

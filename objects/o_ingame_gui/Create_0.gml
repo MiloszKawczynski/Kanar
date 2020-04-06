@@ -1,9 +1,5 @@
 /// @description setup
 
-//TEMPORARY
-passengerid = noone;
-//TEMPORARY
-
 //point counter
 global.points = 0;
 

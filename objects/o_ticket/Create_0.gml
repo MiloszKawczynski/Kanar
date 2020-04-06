@@ -1,5 +1,7 @@
 /// @description variables setup
 
+owner = noone;
+
 depth = -20;
 
 pickable = false;
