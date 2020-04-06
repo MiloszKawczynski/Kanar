@@ -2,7 +2,7 @@
 {
     "name": "r_map",
     "id": "1d9c4df9-5d8c-418e-a72c-c020b9c4f8cf",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

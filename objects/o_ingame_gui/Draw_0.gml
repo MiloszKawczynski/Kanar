@@ -33,4 +33,6 @@ draw_rectangle_colour(
 //points
 draw_set_font(f_clock);
 draw_set_color(c_black);
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
 draw_text(o_clock.clock_x-50,o_clock.clock_y+100,"points:"+" "+string(global.points));
