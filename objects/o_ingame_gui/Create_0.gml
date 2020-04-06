@@ -48,5 +48,6 @@ instance_create_layer(
 	o_menu
 	
 );
+
 //create bus obj
 instance_create_layer(0,0,"instances",o_bus);

@@ -9,9 +9,6 @@ if(keyboard_check(ord("W")))
 
 if(keyboard_check(ord("S")))
 {vdirection = 1}
-	
-vspeed=vspeed_value*vdirection
-
 
 if(keyboard_check(ord("A")))
 {hdirection = -1}
@@ -19,7 +16,27 @@ if(keyboard_check(ord("A")))
 if(keyboard_check(ord("D")))
 {hdirection = 1}
 
-hspeed=hspeed_value*hdirection
+//ogranicznik kanara
+
+if(y + vspeed_value * vdirection > room_height){
+	vdirection = 0;
+}
+
+if(y + vspeed_value * vdirection < room_height - 210){
+	vdirection = 0;
+}
+
+if(x + sprite_width/2 + hspeed_value * hdirection > room_width){
+	hdirection = 0;
+}
+
+if(x - sprite_width/2 + hspeed_value * hdirection < 0){
+	hdirection = 0;
+}
+
+//poruszenie kanara
+x += hspeed_value * hdirection;
+y += vspeed_value * vdirection;
 
 //interaction with passengers
 
@@ -34,12 +51,10 @@ if(keyboard_check_pressed(ord("E")))
 }
 
 
-
-
-if(x - camera_get_view_x(view_camera[1]) < 960 - dead_zone_camera)
-{camera_set_view_pos(view_camera[1], 960 - dead_zone_camera - x - camera_get_view_x(view_camera[1]) , 540)}
-else if(x - camera_get_view_x(view_camera[1]) > 960 + dead_zone_camera)
-{camera_set_view_pos(view_camera[1], 0, 540)}
+//if(x - camera_get_view_x(view_camera[1]) < 960 - dead_zone_camera)
+//{camera_set_view_pos(view_camera[1], 960 - dead_zone_camera - x - camera_get_view_x(view_camera[1]) , 540)}
+//else if(x - camera_get_view_x(view_camera[1]) > 960 + dead_zone_camera)
+//{camera_set_view_pos(view_camera[1], 0, 540)}
 
 
 

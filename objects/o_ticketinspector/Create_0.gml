@@ -6,6 +6,6 @@ vspeed_value=5 // how fast character moves  U/D
 
 passenger_inspection=0 // turns on passenger inspection
 
-dead_zone_camera = 64
+//dead_zone_camera = 64
 
 depth = -50;
