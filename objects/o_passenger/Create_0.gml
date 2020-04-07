@@ -1,7 +1,23 @@
 /// @description setting passenger
 randomise();
 
-depth = -25;
+hspeed_value=10//speed horizonatal
+vspeed_value=5//speed vertical
+
+range=500//how far horizontally passenger may go from doors
+
+
+//(enteredx,enteredy) -- point to which passenger will head towards
+enteredy=irandom_range(900,1050);
+enteredx=irandom_range(x-range,x+range);
+
+
+standingzone=10 // area that passenger will be standing after reaching coordinates close enough (prevents from weird wobblying)
+vdirection=0 //vertical dirtection
+hdirection=0 //horizontal direction
+
+
+
 
 //create ticket
 	
@@ -23,3 +39,7 @@ depth = -25;
 
 //Losowanie twarzy
 portrait = irandom_range(0,image_number-1)
+
+
+
+

@@ -17,7 +17,7 @@ if(state ==state.opening){
 		
 		state = state.closing;
 		
-		instance_create_layer(x,y+40,"instances",o_passenger);
+		instance_create_layer(x,y+40+sprite_get_height(s_passenger)/2,"instances",o_passenger);
 		o_bus.passengers ++;
 		
 	}
