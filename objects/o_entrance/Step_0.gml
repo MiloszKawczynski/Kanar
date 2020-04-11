@@ -1,7 +1,5 @@
 /// @description spawning passenger
 
-if(keyboard_check_pressed(vk_space)) spawn = true;
-
 if(spawn && state == state.closed){
 
 	state = state.opening;
@@ -17,8 +15,12 @@ if(state ==state.opening){
 		
 		state = state.closing;
 		
-		instance_create_layer(x,y+40+sprite_get_height(s_passenger)/2,"instances",o_passenger);
-		o_bus.passengers ++;
+		for(var i = 0; i < multiplier; i++){
+			instance_create_layer(x,y+40+sprite_get_height(s_passenger)/2,"instances",o_passenger);
+		}
+		
+		bus.passengers ++;
+		multiplier = 1;
 		
 	}
 
