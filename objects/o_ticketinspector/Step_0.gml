@@ -62,7 +62,7 @@ depth= -y -1 // I know, complicated as fuck
 //{crowd_effect=crowd_effect_value}
 //else {crowd_effect=1}
 
-
-
-
-
+if sign(x-xprevious)!=0
+{
+	image_xscale=sign(x-xprevious);
+}
