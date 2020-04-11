@@ -25,12 +25,12 @@ if(y + vspeed_value * vdirection > room_height){
 if(y + vspeed_value * vdirection < room_height - 210){
 	vdirection = 0;
 }
-
-if(x + sprite_width/2 + hspeed_value * hdirection > room_width){
+//     VV      grnica obrazka NA SZTYWNO
+if(x + 50 + hspeed_value * hdirection > room_width){
 	hdirection = 0;
 }
-
-if(x - sprite_width/2 + hspeed_value * hdirection < 0){
+//     VV      grnica obrazka NA SZTYWNO
+if(x - 50 + hspeed_value * hdirection < 0){
 	hdirection = 0;
 }
 
