@@ -3,3 +3,6 @@ tab_station:
 2 - pozycja y
 3 - ilosc polaczen
 4-12 - polaczenie
+
+-320
+-55

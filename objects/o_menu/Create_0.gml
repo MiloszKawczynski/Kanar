@@ -7,7 +7,7 @@ for(var i = 0; i < 4; i++){
 
 	bookmark[i] = instance_create_layer(
 	
-		x + o_ingame_gui.margin + sprite_get_width(s_bookmark) * i,
+		x + o_ingame_gui.margin + sprite_get_width(s_bookmark_new) * i,
 		y,
 		"instances",
 		o_bookmark

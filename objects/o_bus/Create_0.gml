@@ -15,5 +15,9 @@ for(var i = 1; i <= 4; i++){
 }
 
 //new pasenger spawn timer
+stops_number=3;
 
-alarm_set(0,960);
+time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number+1))*240;
+
+//alarm_set(0,960);
+alarm[0]=time_for_stop;

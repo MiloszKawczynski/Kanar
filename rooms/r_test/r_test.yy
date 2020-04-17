@@ -43,14 +43,14 @@
             "id": "4faae70a-319a-445f-b803-7ad68d9e43be",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4281282355 },
+            "colour": { "Value": 4281545523 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
-            "htiled": false,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -68,9 +68,9 @@
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
-            "y": 0
+            "y": 540
         }
     ],
     "modelName": "GMRoom",

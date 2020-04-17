@@ -1,13 +1,15 @@
+left_page=140;
+
 draw_self();
 
 draw_set_halign(fa_center);
 
 draw_set_font(f_note_small);
-draw_text(x+250,y+100,string(year(global.time)));
+draw_text(x+left_page,y+50,string(year(global.time)));
 
 draw_set_font(f_note_big);
 draw_set_color(c_red);
-draw_text(x+250,y+225,string(day(global.time)));
+draw_text(x+left_page,y+175,string(day(global.time)));
 
 draw_set_font(f_note_small);
 draw_set_color(c_black);
@@ -27,4 +29,4 @@ switch(month(global.time))
 	case 12: month_text="December" break;
 }
 
-draw_text(x+250,y+325,month_text);
+draw_text(x+left_page,y+275,month_text);
