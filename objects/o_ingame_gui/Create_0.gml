@@ -4,11 +4,11 @@
 global.points = 0;
 
 //create clock
-instance_create_layer(camera_get_view_width(0)/2,30,"instances",o_clock);
+instance_create_layer(1920/2,30,"instances",o_clock);
 
 //main box
-width = camera_get_view_width(0);
-height = camera_get_view_height(0)/2;
+width = 1920;
+height = 540;
 
 //universal vars
 margin = 10;
