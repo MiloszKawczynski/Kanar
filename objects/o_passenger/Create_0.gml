@@ -16,8 +16,10 @@ standingzone=10 // area that passenger will be standing after reaching coordinat
 vdirection=0 //vertical dirtection
 hdirection=0 //horizontal direction
 
+//initiate passenger state
 
-
+state = state.staying;
+checked = false;
 
 //create ticket
 	

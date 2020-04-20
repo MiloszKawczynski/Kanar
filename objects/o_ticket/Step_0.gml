@@ -34,14 +34,16 @@ if(pickable == true){
 		//giving the ticket back
 		portrait = instance_place(x,y,o_portrait);
 		if(portrait != noone){
+			
+			ticket_state = scr_ticket_check();
 		
-			if(scr_ticket_check())
+			if(ticket_state == "good")
 				global.points++;
 			else
 				global.points--;
 			
 			instance_destroy(portrait);
-			instance_destroy(owner);
+			owner.checked = true;
 			instance_destroy();
 		
 		}else{

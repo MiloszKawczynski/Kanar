@@ -13,6 +13,10 @@ enum state{
 	//door
 	opening,
 	closing,
-	closed
+	closed,
+	
+	//passenger
+	leaving,
+	staying
 
 }
