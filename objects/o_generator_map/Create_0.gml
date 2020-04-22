@@ -1,3 +1,5 @@
+window_set_fullscreen(1)
+
 //ustawienie losowego ziarna
 
 randomise();

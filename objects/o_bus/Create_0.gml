@@ -15,7 +15,13 @@ for(var i = 1; i <= 4; i++){
 }
 
 //new pasenger spawn timer
-stops_number=3;
+min_new_passengers=3
+max_new_passengers=5
+
+min_stops_number=5
+max_stops_number=8
+
+stops_number=irandom_range(min_stops_number,max_stops_number);
 
 time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number+1))*240;
 

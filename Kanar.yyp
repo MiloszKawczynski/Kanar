@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0f50dc50-38df-42e6-bcdf-a101f332d1bf",
+            "Value": {
+                "id": "9593f046-9714-41cd-b2e5-4daad0e5db51",
+                "resourcePath": "sprites\\s_fine\\s_fine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "108e9aa2-c50a-4d4d-87e5-e25fc6b6522a",
             "Value": {
                 "id": "7db00f75-1ca9-4674-bf50-6748ebb67752",
@@ -140,6 +148,14 @@
                 "id": "e5168a6c-5030-43e3-81d8-6e5c8a8f4c82",
                 "resourcePath": "views\\24216025-46ba-403d-b449-821a559af950.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "25947004-c1ef-4f19-a62a-6c292fc156fa",
+            "Value": {
+                "id": "20b11865-6616-4000-9a7d-6282b842c204",
+                "resourcePath": "objects\\o_penalty_ticket\\o_penalty_ticket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -708,6 +724,14 @@
                 "id": "d70d165b-9ac2-4088-b4a8-f8808566b4ae",
                 "resourcePath": "notes\\MiłoszKawczyński.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "ff487576-6112-4bca-8f93-06bcc70f633d",
+            "Value": {
+                "id": "0ae7bae1-e31a-430c-a679-49cf7ba94eb3",
+                "resourcePath": "objects\\o_penalty_ticket_list\\o_penalty_ticket_list.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

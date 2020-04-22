@@ -45,7 +45,7 @@ if(abs(x-enteredx)>standingzone)
 else {hdirection=0}
 
 //Leaving bus command
-if(keyboard_check(ord("F")))
+if(state==state.leaving)
 {
 	inst = instance_nearest(x,y,o_entrance);
 	enteredx = inst.x;
