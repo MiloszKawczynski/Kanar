@@ -32,5 +32,3 @@ code = "";
 
 //is ticket symbol correct 0 - yes, other - forged/obscured
 symbol = 0;
-
-ticket_state = scr_ticket_check();

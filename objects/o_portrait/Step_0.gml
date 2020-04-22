@@ -48,6 +48,8 @@ if(ticket == noone && passenger != noone){
 	
 	image_index = passenger.portrait;
 	
+	ticket.ticket_state = scr_ticket_check();
+	
 	setup = true;
 
 }

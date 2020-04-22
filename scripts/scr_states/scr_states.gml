@@ -17,6 +17,11 @@ enum state{
 	
 	//passenger
 	leaving,
-	staying
+	staying,
+	
+	//bus
+	
+	stopped,
+	going
 
 }

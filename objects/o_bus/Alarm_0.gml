@@ -9,6 +9,6 @@ for(var i=0;i<new_passengers_number;i++)
 	entrance[enr].spawn = true;
 }
 
-
-//alarm_set(0,960);
-alarm[0]=time_for_stop;
+//staritng the dealy
+state = state.stopped
+alarm[1] = 60;

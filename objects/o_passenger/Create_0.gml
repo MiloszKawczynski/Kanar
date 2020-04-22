@@ -39,6 +39,7 @@ checked = false;
 	//(provisional)
 	ticket_time = choose(global.time+irandom_range(0,20),global.time+irandom_range(-1200,-ticket_value),global.time+irandom_range(-30,0));
 
+
 //Losowanie twarzy
 portrait = irandom_range(0,image_number-1)
 

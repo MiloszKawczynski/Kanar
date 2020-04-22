@@ -1,4 +1,4 @@
-/// @description click to mandacik
+/// @description list of mandaciks
 
 if mouse_check_button_pressed(mb_left)
 {

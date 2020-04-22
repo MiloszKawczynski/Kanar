@@ -1,5 +1,4 @@
-
-
+/// @description behaviour
 
 //borders of movement
 
@@ -18,7 +17,6 @@ if(x + sprite_width/2 + hspeed_value * hdirection > room_width){
 if(x - sprite_width/2 + hspeed_value * hdirection < 0){
 	hdirection = 0;
 }
-
 
 
 //calculating speed of passenger
@@ -52,6 +50,13 @@ if(state==state.leaving)
 	enteredy = inst.y;
 }
 
+//deciding to leave
+
+if( (checked == true || floor(global.time) - 10 > floor(ticket_time) + ticket_value) &&  o_bus.state == state.stopped){
+	
+	state = state.leaving;
+
+}
 	
 	
 

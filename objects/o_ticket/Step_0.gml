@@ -80,13 +80,19 @@ if(state == state.picked){
 	
 	}
 	
+	//setting mose x pos depending on if its in upper on lower part of screen 
+	if(mouse_y >= room_height/2)
+		mousex = mouse_x - camera_get_view_x(view_camera[1]);
+	else
+		mousex = mouse_x;
+	
 	//right
-	if(mouse_x + pick_offset_x + sprite_width/2 + margin < mouse_border_x){
+	if(mousex + pick_offset_x + sprite_width/2 + margin < mouse_border_x){
 		
 		//left
-		if(mouse_x + pick_offset_x - sprite_width/2 - margin > 0){
+		if(mousex + pick_offset_x - sprite_width/2 - margin > 0){
 		
-			x = mouse_x + pick_offset_x;
+			x = mousex + pick_offset_x;
 		
 		}else{
 			//left else
