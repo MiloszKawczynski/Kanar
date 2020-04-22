@@ -35,8 +35,8 @@ if(x - 50 + hspeed_value * hdirection < 0){
 }
 
 //calculating speed of character
-x += hspeed_value * hdirection * crowd_effect;
-y += vspeed_value * vdirection * crowd_effect;
+x += hspeed_value * hdirection;
+y += vspeed_value * vdirection;
 
 //interaction with passengers
 
@@ -59,12 +59,23 @@ if(keyboard_check_pressed(ord("E")))
 depth= -y -1 // I know, complicated as fuck
 
 
-//not good way to do crowd effect but kinda works
-//if(distance_to_object(o_passenger)<30)
-//{crowd_effect=crowd_effect_value}
-//else {crowd_effect=1}
-
 if sign(x-xprevious)!=0
 {
 	image_xscale=sign(x-xprevious);
 }
+
+//Checking for closest passenger id (if further than radius returns noone
+if(collision_circle(x,y,pass_collision_rad,o_passenger,false,true))
+{
+	pass_id=instance_nearest(x,y,o_passenger);
+}
+else {pass_id=noone;}
+	
+	
+	
+	
+	
+	
+	
+	
+	

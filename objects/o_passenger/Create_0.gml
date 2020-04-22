@@ -42,6 +42,15 @@ checked = false;
 //Losowanie twarzy
 portrait = irandom_range(0,image_number-1)
 
+move_check_success=300// how big is the chance of small movement (1000 is 100%)
+move_check_time=1 //how often there will be check on small movement
+xrange=100//how far in x axis passenger can move
+yrange=50//how far in y axis passenger can move
+latency = random(2) //latency for desyncing movement of passengers
+
+//small movement check
+alarm[0] = (move_check_time+latency)*room_speed;
+
 
 
 

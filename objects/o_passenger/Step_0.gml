@@ -43,6 +43,15 @@ if(abs(x-enteredx)>standingzone)
 	hdirection=-sign(x-enteredx)
 }
 else {hdirection=0}
+
+//Leaving bus command
+if(keyboard_check(ord("F")))
+{
+	inst = instance_nearest(x,y,o_entrance);
+	enteredx = inst.x;
+	enteredy = inst.y;
+}
+
 	
 	
 
