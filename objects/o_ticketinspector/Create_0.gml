@@ -5,4 +5,6 @@ hspeed_value=10 // how fast character moves L/R
 vspeed_value=5 // how fast character moves  U/D
 
 pass_collision_rad=20//radius of interacting with passengers
-pass_id=0//id of nearest (in range) passenger
+pass_id=noone//id of nearest (in range) passenger
+
+passenger=noone

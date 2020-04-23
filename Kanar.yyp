@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "31863f5f-ef84-4bfe-978a-193a1a5b0dca",
+            "Value": {
+                "id": "493f5a4f-cb2a-4451-bf09-67a17b98fece",
+                "resourcePath": "sprites\\s_penalty_ticket\\s_penalty_ticket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "359e6397-6511-40bb-a8d6-1bc1f034a7a1",
             "Value": {
                 "id": "93d4de45-ef1a-43d9-929c-cb2a75abedd8",

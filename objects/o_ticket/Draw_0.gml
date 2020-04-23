@@ -13,3 +13,8 @@ draw_text_transformed(x-170,y,code,1,1,90);
 draw_sprite(s_symbol,symbol,x+70,y+40);
 
 draw_text_transformed(x+153,y,string(year(time))+"."+string(month(time))+"."+string(day(time))+" "+string(hour(time))+":"+string(minute(time)),1,1,270);
+
+if global.debug==true
+{
+	draw_text(500,250,ticket_state);
+}

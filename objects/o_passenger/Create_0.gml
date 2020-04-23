@@ -52,6 +52,5 @@ latency = random(2) //latency for desyncing movement of passengers
 //small movement check
 alarm[0] = (move_check_time+latency)*room_speed;
 
-
-
-
+//newcomer check
+newcomer=true

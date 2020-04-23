@@ -47,7 +47,7 @@ if(pickable == true){
 			instance_destroy(portrait);
 			owner=o_ticket.owner;
 			owner.checked = true;
-			instance_destroy(o_ticket);
+			if instance_exists(o_ticket) {instance_destroy(o_ticket);}
 			instance_destroy();
 		
 		}else{

@@ -1,42 +1,46 @@
+//Movment block when Checking
 
-//Movement of character 
+if passenger==noone
+{
+	//Movement of character 
 
-vdirection=0
-hdirection=0
+	vdirection=0
+	hdirection=0
 
-if(keyboard_check(ord("W")))
-{vdirection = -1}
+	if(keyboard_check(ord("W")))
+	{vdirection = -1}
 
-if(keyboard_check(ord("S")))
-{vdirection = 1}
+	if(keyboard_check(ord("S")))
+	{vdirection = 1}
 
-if(keyboard_check(ord("A")))
-{hdirection = -1}
+	if(keyboard_check(ord("A")))
+	{hdirection = -1}
 
-if(keyboard_check(ord("D")))
-{hdirection = 1}
+	if(keyboard_check(ord("D")))
+	{hdirection = 1}
 
-//borders of movement
+	//borders of movement
 
-if(y + vspeed_value * vdirection > room_height){
-	vdirection = 0;
+	if(y + vspeed_value * vdirection > room_height){
+		vdirection = 0;
+	}
+
+	if(y + vspeed_value * vdirection < room_height - 210){
+		vdirection = 0;
+	}
+	//     VV      grnica obrazka NA SZTYWNO
+	if(x + 50 + hspeed_value * hdirection > room_width){
+		hdirection = 0;
+	}
+	//     VV      grnica obrazka NA SZTYWNO
+	if(x - 50 + hspeed_value * hdirection < 0){
+		hdirection = 0;
+	}
+
+	//calculating speed of character
+	x += hspeed_value * hdirection;
+	y += vspeed_value * vdirection;
 }
-
-if(y + vspeed_value * vdirection < room_height - 210){
-	vdirection = 0;
-}
-//     VV      grnica obrazka NA SZTYWNO
-if(x + 50 + hspeed_value * hdirection > room_width){
-	hdirection = 0;
-}
-//     VV      grnica obrazka NA SZTYWNO
-if(x - 50 + hspeed_value * hdirection < 0){
-	hdirection = 0;
-}
-
-//calculating speed of character
-x += hspeed_value * hdirection;
-y += vspeed_value * vdirection;
 
 //interaction with passengers
 
@@ -50,6 +54,7 @@ if(keyboard_check_pressed(ord("E")))
 			o_ingame_gui.portrait.passenger = passenger;
 		}else
 			global.points--;
+			passenger=noone;
 		
 	}
 }
@@ -71,11 +76,20 @@ if(collision_circle(x,y,pass_collision_rad,o_passenger,false,true))
 }
 else {pass_id=noone;}
 	
-	
-	
-	
-	
-	
-	
-	
-	
+//debug
+
+if keyboard_check_pressed(vk_f9) 
+{
+	if global.debug==false {global.debug=true;} else {global.debug=false;}
+}
+
+if global.debug==true
+{
+	view_set_visible(1,0);
+	view_set_visible(2,1);
+}
+else
+{
+	view_set_visible(1,1);
+	view_set_visible(2,0);
+}

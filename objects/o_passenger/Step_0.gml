@@ -48,16 +48,20 @@ if(state==state.leaving)
 	inst = instance_nearest(x,y,o_entrance);
 	enteredx = inst.x;
 	enteredy = inst.y;
+	if distance_to_point(inst.x,inst.y)<5 
+	{
+		if checked == false {global.points--;}
+		instance_destroy();
+	}
 }
 
 //deciding to leave
 
-if( (checked == true || floor(global.time) - 10 > floor(ticket_time) + ticket_value) &&  o_bus.state == state.stopped){
-	
+if( (checked == true || floor(global.time) - 10 > floor(ticket_time) + ticket_value) &&  o_bus.state == state.stopped && newcomer==false){
+
 	state = state.leaving;
-
 }
-	
-	
 
-		
+//newcomer stay
+
+if newcomer==true and o_bus.state == state.going {newcomer=false;}

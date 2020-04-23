@@ -1,4 +1,5 @@
 window_set_fullscreen(1)
+global.debug=false;
 
 //ustawienie losowego ziarna
 
