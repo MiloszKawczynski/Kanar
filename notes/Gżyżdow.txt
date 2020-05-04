@@ -1,3 +1,5 @@
 szansa na gapowicza - 1/6
 
 tylko jedna rzecz może być źle
+
+wartości poprawnego symbolu i kodu losują się w clock

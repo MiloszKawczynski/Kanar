@@ -37,16 +37,20 @@ checked = false;
 	
 	//choosing code 
 	if(evil == 1)
-		ticket_code = choose("Pfagfr","R345reg");
+		do
+			ticket_code = choose("Pfagfr","R345reg","Erdg34t");
+		until(ticket_code != global.code)
 	else
-		ticket_code = "Erdg34t";
+		ticket_code = global.code;
 		
 	
 	//choosing symbol on ticket
 	if(evil == 2)
-		ticket_symbol = choose(1,2,3,4,5);
+		do
+			ticket_symbol = choose(0,1,2,3,4,5);
+		until(ticket_symbol != global.symbol)
 	else
-		ticket_symbol = 0;
+		ticket_symbol = global.symbol;
 		
 	//is the ticket validated
 	if(evil == 3)

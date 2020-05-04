@@ -9,11 +9,11 @@ if(o_ticket.valid == false)
 	state = "unvalidated";
 	
 //check code
-if(o_ticket.code != "Erdg34t")
+if(o_ticket.code != global.code)
 	state = "code";
 	
 //check symbol (sprite)
-if(o_ticket.symbol != 0)
+if(o_ticket.symbol != global.symbol)
 	state = "symbol";
 	
 
