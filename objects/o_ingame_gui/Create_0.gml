@@ -1,7 +1,6 @@
 /// @description setup
 
 //point counter
-global.points = 0;
 
 //create clock
 instance_create_layer(1920/2,30,"instances",o_clock);

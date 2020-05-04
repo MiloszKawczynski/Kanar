@@ -1,6 +1,6 @@
 //Movment block when Checking
 
-if passenger==noone
+if !instance_exists(o_ticket)
 {
 	//Movement of character 
 
