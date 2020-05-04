@@ -22,26 +22,46 @@ state = state.staying;
 checked = false;
 
 //create ticket
+
+	//deciding if passenger wants to ride illegaly
+	var rnd = random_range(0,1);
+	if(rnd <= 1/5){
+		//evil = choose(1,2,3,4);	
+		evil = 3;
+	}else 
+		evil = 0;
 	
 	//choosing value and type
 	ticket_value = choose(20,40,60);
 	ticket_type = choose("reduced","normal");
 	
 	//choosing code 
-	//(provisional)
-	ticket_code = choose("Pfagfr","R345reg","Erdg34t","Erdg34t","Erdg34t","Erdg34t","Erdg34t");
+	if(evil == 1)
+		ticket_code = choose("Pfagfr","R345reg");
+	else
+		ticket_code = "Erdg34t";
+		
 	
 	//choosing symbol on ticket
-	//(provisional)
-	ticket_symbol = choose(0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5);
+	if(evil == 2)
+		ticket_symbol = choose(1,2,3,4,5);
+	else
+		ticket_symbol = 0;
+		
+	//is the ticket validated
+	if(evil == 3)
+		ticket_valid = false;
+	else
+		ticket_valid = true;
 	
 	//choosing validation date and time
-	//(provisional)
-	ticket_time = choose(global.time+irandom_range(0,20),global.time+irandom_range(-1200,-ticket_value),global.time+irandom_range(-30,0));
-
+	if(evil == 4)
+		ticket_time = global.time+irandom_range(-1200,-ticket_value-1);
+	else
+		ticket_time = global.time-ticket_value+irandom_range(10,ticket_value-5);
 
 //Losowanie twarzy
-portrait = irandom_range(0,image_number-1)
+portrait = irandom_range(0,8-1);
 
 move_check_success=300// how big is the chance of small movement (1000 is 100%)
 move_check_time=1 //how often there will be check on small movement

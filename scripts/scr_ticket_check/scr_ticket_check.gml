@@ -4,9 +4,9 @@ var state = "good";
 if(floor(global.time) > floor(o_ticket.time) + o_ticket.value)
 	state = "expired";
 
-//check if time higher that current (forged)
-if(floor(global.time) < floor(o_ticket.time))
-	state = "forged";
+//check if its validated
+if(o_ticket.valid == false)
+	state = "unvalidated";
 	
 //check code
 if(o_ticket.code != "Erdg34t")

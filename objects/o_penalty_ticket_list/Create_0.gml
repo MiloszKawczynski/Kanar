@@ -10,6 +10,6 @@ list=0;
 choosed_reason="";
 
 reason[1]="expired";
-reason[2]="forged";
+reason[2]="unvalidated";
 reason[3]="code";
 reason[4]="symbol";

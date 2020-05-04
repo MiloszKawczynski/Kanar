@@ -41,8 +41,12 @@ if(ticket == noone && passenger != noone){
 	//passing symbol on ticket
 	ticket.symbol = passenger.ticket_symbol;
 	
+	//passing if its validated
+	ticket.valid = passenger.ticket_valid;
+	
 	//passing validation date and time
-	ticket.time = passenger.ticket_time;
+	if(ticket.valid = true)
+		ticket.time = passenger.ticket_time;
 	
 	ticket.owner = passenger;
 	

@@ -33,4 +33,7 @@ code = "";
 //is ticket symbol correct 0 - yes, other - forged/obscured
 symbol = 0;
 
+//is the tckiet validated
+valid = true;
+
 ticket_state=0
