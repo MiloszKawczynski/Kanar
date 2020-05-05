@@ -15,15 +15,15 @@ for(var i = 1; i <= 4; i++){
 }
 
 //new pasenger spawn timer
-min_new_passengers=3
-max_new_passengers=5
+min_new_passengers=1
+max_new_passengers=3
 
-min_stops_number=5
-max_stops_number=8
+min_stops_number=2
+max_stops_number=5
 
 stops_number=irandom_range(min_stops_number,max_stops_number);
 
-time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number))*240;
 time_for_end=(((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))*240;
+time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number))*240;
 
 alarm[2]=time_for_end;

@@ -7,7 +7,7 @@ if alarm[1]==-1
 
 			new_passengers_number = irandom_range(min_new_passengers,max_new_passengers)
 
-			for(var i=0;i<new_passengers_number;i++)
+			for(var j=0;j<new_passengers_number;j++)
 			{
 				enr = choose(1,2,3,4);
 
