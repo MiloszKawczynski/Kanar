@@ -7,7 +7,8 @@
         "41f2b9ae-185b-4629-b05a-fedf5bc437cc",
         "c3ec7722-ac2a-4de7-8257-12ec4ba50e71",
         "abc5c4ae-444c-4f90-818a-d006c9fa1472",
-        "43aa69ca-41ef-40c9-9f00-5f3fa021c2e3"
+        "43aa69ca-41ef-40c9-9f00-5f3fa021c2e3",
+        "87fb9505-88e2-45bc-82f1-77d29708d98f"
     ],
     "filterType": "GMSprite",
     "folderName": "ingame gui",

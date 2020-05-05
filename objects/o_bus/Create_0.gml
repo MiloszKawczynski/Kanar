@@ -23,8 +23,7 @@ max_stops_number=8
 
 stops_number=irandom_range(min_stops_number,max_stops_number);
 
-time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number+1))*240;
+time_for_stop=((((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))/(stops_number))*240;
+time_for_end=(((global.arrive_time_hour-hour(global.time))*60)+(global.arrive_time_minute-minute(global.time)))*240;
 
-stop=1;
-
-alarm[0]=time_for_stop;
+alarm[2]=time_for_end;

@@ -36,6 +36,3 @@ draw_rectangle_colour(
 //draw_set_halign(fa_center);
 //draw_set_valign(fa_top);
 //draw_text(o_clock.clock_x-50,o_clock.clock_y+100,"points:"+" "+string(global.points));
-
-//draw_set_color(c_lime);
-//draw_rectangle(0,0,(1-o_bus.alarm[0])*o_bus.stop,10,0);

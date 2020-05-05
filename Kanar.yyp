@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "33e266af-c8bc-4ed6-9b54-a19f361eb7fc",
+            "Value": {
+                "id": "c35e7aa2-715d-4da4-87bf-a3e7a1314cde",
+                "resourcePath": "sprites\\s_bus_icon\\s_bus_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "359e6397-6511-40bb-a8d6-1bc1f034a7a1",
             "Value": {
                 "id": "93d4de45-ef1a-43d9-929c-cb2a75abedd8",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "87fb9505-88e2-45bc-82f1-77d29708d98f",
+            "Value": {
+                "id": "efae970d-93a9-400c-ade0-c1a44d686ac2",
+                "resourcePath": "views\\87fb9505-88e2-45bc-82f1-77d29708d98f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88cb91c1-b5d5-4d7b-8114-64c7e0340e5d",
             "Value": {
                 "id": "be48f7d8-a2c1-46de-a61b-74b1c1ddbebc",
@@ -524,6 +540,14 @@
                 "id": "2355773c-e8a3-4012-98ac-7fab74caa185",
                 "resourcePath": "notes\\Gżyżdow.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "8fe58fb5-2a76-4f83-ad47-5a4de37e9aec",
+            "Value": {
+                "id": "2aa22dcc-4fee-4404-bf1f-d08e743a6c24",
+                "resourcePath": "sprites\\s_stop_icon\\s_stop_icon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
