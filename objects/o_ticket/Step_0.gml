@@ -50,9 +50,10 @@ if(pickable == true){
 		}else{
 		
 			state = state.free;
-			o_ingame_gui.cursor_state = state.c_free;
 		
 		}
+		
+		o_ingame_gui.cursor_state = state.c_free;
     
     }
 

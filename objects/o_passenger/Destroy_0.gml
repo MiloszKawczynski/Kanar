@@ -1,3 +1,3 @@
-/// @clearing ticket and portrait if not finished checking
+/// @clearing ticket and portrait
 
 
