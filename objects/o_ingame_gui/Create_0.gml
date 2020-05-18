@@ -1,6 +1,7 @@
 /// @description setup
 
-//point counter
+//nouse pick state
+cursor_state = state.c_free;
 
 //create clock
 instance_create_layer(1920/2,30,"instances",o_clock);

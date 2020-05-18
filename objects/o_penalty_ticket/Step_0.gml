@@ -16,11 +16,12 @@ if(speed > 0){
 //moving the ticket
 if(pickable == true){
 
-    if(mouse_check_button_pressed(mb_left) && state == state.free){
+    if(mouse_check_button_pressed(mb_left) && state == state.free  && o_ingame_gui.cursor_state == state.c_free){
     
         if(collision_point(mouse_x,mouse_y,id,0,0)){
         
             state = state.picked;
+			o_ingame_gui.cursor_state = state.c_picking;
             
             pick_offset_x = x - mouse_x;
             pick_offset_y = y - mouse_y;
@@ -53,6 +54,7 @@ if(pickable == true){
 		}else{
 		
 			state = state.free;
+			o_ingame_gui.cursor_state = state.c_free;
 		
 		}
     

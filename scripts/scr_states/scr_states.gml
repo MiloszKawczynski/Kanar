@@ -22,6 +22,10 @@ enum state{
 	//bus
 	
 	stopped,
-	going
+	going,
+	
+	//cursor
+	c_picking,
+	c_free
 
 }
