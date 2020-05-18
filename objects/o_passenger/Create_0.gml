@@ -26,8 +26,7 @@ checked = false;
 	//deciding if passenger wants to ride illegaly
 	var rnd = random_range(0,1);
 	if(rnd <= 1/5){
-		//evil = choose(1,2,3,4);	
-		evil = 3;
+		evil = choose(1,2,3,4);	
 	}else 
 		evil = 0;
 	
